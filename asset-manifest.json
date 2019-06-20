@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mysterium-companion/static/css/main.43e19b7a.chunk.css",
+    "main.js": "/mysterium-companion/static/js/main.d2cb59fa.chunk.js",
+    "main.js.map": "/mysterium-companion/static/js/main.d2cb59fa.chunk.js.map",
+    "runtime~main.js": "/mysterium-companion/static/js/runtime~main.f4bc4e08.js",
+    "runtime~main.js.map": "/mysterium-companion/static/js/runtime~main.f4bc4e08.js.map",
+    "static/js/2.888cbd8a.chunk.js": "/mysterium-companion/static/js/2.888cbd8a.chunk.js",
+    "static/js/2.888cbd8a.chunk.js.map": "/mysterium-companion/static/js/2.888cbd8a.chunk.js.map",
+    "index.html": "/mysterium-companion/index.html",
+    "precache-manifest.e8a201579885254664ef8bee76fe2a05.js": "/mysterium-companion/precache-manifest.e8a201579885254664ef8bee76fe2a05.js",
+    "service-worker.js": "/mysterium-companion/service-worker.js",
+    "static/css/main.43e19b7a.chunk.css.map": "/mysterium-companion/static/css/main.43e19b7a.chunk.css.map",
+    "static/media/App.css": "/mysterium-companion/static/media/myst.413c2fb4.jpg"
+  }
+}
