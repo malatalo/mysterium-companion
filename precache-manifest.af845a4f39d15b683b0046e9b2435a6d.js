@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dce14197eab79b0e7d05c8f85d095199",
+    "revision": "13bc64c564f1f01d06b2263247c92b9a",
     "url": "/mysterium-companion/index.html"
   },
   {
-    "revision": "ee47d55adc7b20a017b8",
+    "revision": "33a3bfb41e19dd99350a",
     "url": "/mysterium-companion/static/css/main.43e19b7a.chunk.css"
   },
   {
-    "revision": "e9b3876f16d49e5fe30a",
-    "url": "/mysterium-companion/static/js/2.888cbd8a.chunk.js"
+    "revision": "383c687a4aee7841f9e9",
+    "url": "/mysterium-companion/static/js/2.b7f3c78b.chunk.js"
   },
   {
-    "revision": "ee47d55adc7b20a017b8",
-    "url": "/mysterium-companion/static/js/main.d2cb59fa.chunk.js"
+    "revision": "33a3bfb41e19dd99350a",
+    "url": "/mysterium-companion/static/js/main.4c7fb62a.chunk.js"
   },
   {
     "revision": "160782e81546eeb009f3",

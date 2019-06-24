@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mysterium-companion/precache-manifest.e8a201579885254664ef8bee76fe2a05.js"
+  "/mysterium-companion/precache-manifest.af845a4f39d15b683b0046e9b2435a6d.js"
 );
 
 self.addEventListener('message', (event) => {
