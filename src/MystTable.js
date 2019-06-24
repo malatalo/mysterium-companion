@@ -33,7 +33,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function MystTable({ rows, showMurderer }) {
+export default function MystTable(props) {
   const classes = useStyles();
   const colors = {
     purple: "rgba(128, 0, 128, 0.5)",
@@ -57,15 +57,15 @@ export default function MystTable({ rows, showMurderer }) {
               Location
             </TableCell>
             <TableCell className={classes.tableCell} align="left">
-              Weapon
+            {props.weaponsOrStories == "weapons" ? "Weapon" : "Story"}
             </TableCell>
           </TableRow>
         </TableHead>
         <TableBody className={classes.tableBody}>
-          {rows.map(row => (
+          {props.rows.map(row => (
             <TableRow
               key={row.color}
-              style={{ backgroundColor: colors[row.color], opacity: !row.murderer && showMurderer ? 0.2 : 1 }}
+              style={{ backgroundColor: colors[row.color], opacity: !row.murderer && props.showMurderer ? 0.2 : 1 }}
             >
               <TableCell component="th" scope="row">
                 {row.color}
