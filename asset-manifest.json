@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/mysterium-companion/static/css/main.43e19b7a.chunk.css",
-    "main.js": "/mysterium-companion/static/js/main.4c7fb62a.chunk.js",
-    "main.js.map": "/mysterium-companion/static/js/main.4c7fb62a.chunk.js.map",
-    "runtime~main.js": "/mysterium-companion/static/js/runtime~main.f4bc4e08.js",
-    "runtime~main.js.map": "/mysterium-companion/static/js/runtime~main.f4bc4e08.js.map",
-    "static/js/2.b7f3c78b.chunk.js": "/mysterium-companion/static/js/2.b7f3c78b.chunk.js",
-    "static/js/2.b7f3c78b.chunk.js.map": "/mysterium-companion/static/js/2.b7f3c78b.chunk.js.map",
+    "main.css": "/mysterium-companion/static/css/main.1f726cf4.css",
+    "main.js": "/mysterium-companion/static/js/main.4afceca3.js",
+    "static/media/myst.jpg": "/mysterium-companion/static/media/myst.3ef10e16878e49a63196.jpg",
     "index.html": "/mysterium-companion/index.html",
-    "precache-manifest.af845a4f39d15b683b0046e9b2435a6d.js": "/mysterium-companion/precache-manifest.af845a4f39d15b683b0046e9b2435a6d.js",
-    "service-worker.js": "/mysterium-companion/service-worker.js",
-    "static/css/main.43e19b7a.chunk.css.map": "/mysterium-companion/static/css/main.43e19b7a.chunk.css.map",
-    "static/media/App.css": "/mysterium-companion/static/media/myst.413c2fb4.jpg"
-  }
+    "main.1f726cf4.css.map": "/mysterium-companion/static/css/main.1f726cf4.css.map",
+    "main.4afceca3.js.map": "/mysterium-companion/static/js/main.4afceca3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f726cf4.css",
+    "static/js/main.4afceca3.js"
+  ]
 }
