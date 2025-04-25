@@ -5,6 +5,8 @@ import Grid from "@material-ui/core/Grid";
 import CoolButton from "./CoolButton";
 import SetupDialog from "./SetupDialog";
 
+const localStorageKey = "mysterium-state"
+
 const initState = {
   rows: [],
   suspects: [],
@@ -33,6 +35,19 @@ export default class App extends React.Component {
   constructor() {
     super();
 
+    const storaged = localStorage.getItem(localStorageKey)
+    const parsed = JSON.parse(storaged)
+    const { 
+      suspectNumbers,
+      locationNumbers,
+      weaponNumbers,
+      storyNumbers,
+      suspects,
+      locations,
+      weapons,
+      state
+    } = parsed || {}
+
     this.cards = {
       base: {
         suspects: this.initArray(1, 18, ""),
@@ -52,16 +67,16 @@ export default class App extends React.Component {
       }
     };
 
-    this.suspectNumbers = [];
-    this.locationNumbers = [];
-    this.weaponNumbers = [];
-    this.storyNumbers = [];
+    this.suspectNumbers = suspectNumbers || [];
+    this.locationNumbers = locationNumbers || [];
+    this.weaponNumbers = weaponNumbers || [];
+    this.storyNumbers = storyNumbers || [];
 
-    this.suspects = [];
-    this.locations = [];
-    this.weapons = [];
+    this.suspects = suspects || [];
+    this.locations = locations || [];
+    this.weapons = weapons || [];
 
-    this.state = initState;
+    this.state = state || initState;
   }
 
   initArray = (start, end, prefix) => {
@@ -161,6 +176,19 @@ export default class App extends React.Component {
       }
       return a - b;
     });
+
+    const toSave = {
+      suspectNumbers: this.suspectNumbers,
+      locationNumbers: this.locationNumbers,
+      weaponNumbers: this.weaponNumbers,
+      storyNumbers: this.storyNumbers,
+      suspects: this.suspects,
+      locations: this.locations,
+      weapons: this.weapons,
+      state: {...this.state, setupDialogOpen:false, rows}
+    }
+
+    localStorage.setItem(localStorageKey, JSON.stringify(toSave))
   };
 
   toggleShowMurderer = () => {
